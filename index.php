@@ -8,21 +8,18 @@
 </head>
 <body>
   <div class="jumbotron">
-        
     <!-- navbar -->
     <?php include("fragments/nav.html"); ?>
 
     <!-- welcome -->
     <?php include("fragments/welcome.html"); ?>
-
   </div>
 
-   <!-- form -->
-   <?php include("fragments/form.html"); ?>
-
-          </body>
-        <script type="text/javascript" src="vendors/js/jquery.min.js"></script>
-        <script type="text/javascript" src="vendors/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        </html>
+  <!-- form -->
+  <?php include("fragments/form.html"); ?>
+</body>
+<script type="text/javascript" src="vendors/js/jquery.min.js"></script>
+<script type="text/javascript" src="vendors/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
